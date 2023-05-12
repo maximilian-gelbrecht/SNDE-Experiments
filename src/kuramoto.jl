@@ -9,8 +9,8 @@ using Random
 using Distributions
 
 function kuramoto_edge!(edge, v_s, v_d, p, t)
-    # coupling strength σ = 9.0
-    edge[1] = 4.0 * sin(v_s[1] - v_d[1])
+    # coupling strength σ = 7.0
+    edge[1] = 7.0 * sin(v_s[1] - v_d[1])
     return nothing
 end
 
